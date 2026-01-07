@@ -147,6 +147,12 @@ Step-by-step guidance for the LLM...
 
 The LLM will automatically discover and use your skill when appropriate.
 
+## TO-DOs
+
+1. Adding Step 6: Cataloger: Extend the pipeline to automatically append a high-level summary (Question, Method, Setting) to a central catalog.md journal.
+
+2. Discovery Agent: Add a module to fetch Top-K trending papers from research hubs and feed them into the pipeline in batch mode.
+
 ## Requirements
 
 - Python 3.10+
@@ -164,3 +170,5 @@ The LLM will automatically discover and use your skill when appropriate.
 ## License
 
 MIT
+
+
